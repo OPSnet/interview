@@ -11,7 +11,7 @@ include('config.php');
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-	<link rel="stylesheet" href="https://orpheus.network/static/styles/apollostage/style.css" />
+	<link rel="stylesheet" href="style.css" />
 
 	<style type="text/css" media="screen">
 body{background-color:#212328;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
@@ -19,7 +19,7 @@ body{background-color:#212328;margin:0;font-family:"Helvetica Neue",Helvetica,Ar
 a{color:#fff;text-decoration:none}
 a:hover{text-decoration:underline}
 p{margin:10px 0;font-size:18px;line-height:1.6em}
-#suggestions{margin-top:35px;color:#fff}
+#suggestions{margin-top:35px;color:#fff;order:3}
 #suggestions a,p{color:#fff;font-weight:200}
 #suggestions a{font-size:14px;margin:0 10px}
 	</style>
