@@ -4,6 +4,7 @@
 
 newstop();
 
+// If you update the list, make sure to update the "Last updated" line at the bottom of this page!
 newsbox('Bittorrent client whitelist', '
 <p>The following BitTorrent clients are on the ' . $SITENAME . ' whitelist:</p>
 <ul>
@@ -44,7 +45,7 @@ newsbox('Bittorrent client whitelist', '
 <li>uTorrent Mac 1.8.x</li>
 </ul>
 <strong>If there is an &#8220;x&#8221; behind a decimal, that means that any number can be substituted for the x. For example: uTorrent 2.0.x means that uTorrent 2.0.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4, etc. are all on the whitelist.</strong><br /><br />
-<em>Last updated: 22 May 2013</em>');
+<em>Last updated: 28 November 2020</em>');
 
 newsbot();
 
