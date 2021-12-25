@@ -6,15 +6,14 @@ newstop();
 
 newsbox('Starting the interview', '
 <h3>Getting an IRC Client</h3>
-<strong>Internet Relay Chat (IRC)</strong> is a beefier version of chat clients you may be used to, like AOL Instant Messenger (AIM) or Yahoo! Messenger.
+<strong>Internet Relay Chat (IRC)</strong> is a rawer, lightweight version of chat clients you may be used to, like Discord, Slack or Steam. You can either use our <a href="/webirc/" target="_blank" rel="noopener">web client</a> or any standalone IRC client.
 <h3>Suggested Clients</h3>
 <ul>
 <li>mIRC (Windows)</li>
 <li>Hexchat (Windows, Linux)</li>
 <li>Colloquy (Mac OS)</li>
 </ul>
-<strong>Note:</strong> Web-based IRC clients, such as Mibbit, are very unstable, and therefor not recommended to use.<br /><br />
-Once you have downloaded, installed, and set up your IRC client, read on!
+Once you are all set up, read on!
 
 <h3>Connecting to ' . $SITENAME . '&#8217;s IRC</h3>
 <strong>YOU MAY ONLY INTERVIEW ON YOUR HOME CONNECTION. Proxies, bouncers, shells, office lines, and other non-home connections (including using your friend&#8217;s home connection) are not allowed. You may connect from your university dormitory.<br />
