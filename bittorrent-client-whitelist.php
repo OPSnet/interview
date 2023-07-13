@@ -42,17 +42,9 @@ newsbox('Bittorrent client whitelist', '
 <li>Transmission 4.0.1</li>
 <li>Transmission 4.0.2</li>
 <li>Transmission 4.0.3</li>
-<li>uTorrent Mac 1.5.x</li>
-<li>uTorrent Mac 1.8.x</li>
-<li>uTorrent 1.8.x</li>
-<li>uTorrent 2.0.4</li>
-<li>uTorrent 2.1.x</li>
-<li>uTorrent 2.2.x</li>
-<li>uTorrent 3.5.3</li>
-<li>uTorrent 3.5.4</li>
-<li>uTorrent 3.5.5</li>
 <li>Mainline</li>
 </ul>
+
 <strong>If there is an &#8220;x&#8221; behind a decimal, that means that any number can be substituted for the x. For example: uTorrent 2.0.x means that uTorrent 2.0.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4, etc. are all on the whitelist.</strong><br /><br />
 <em>Last updated: 13 July 2023</em>');
 
