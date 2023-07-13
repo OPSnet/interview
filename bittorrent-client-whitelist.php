@@ -45,7 +45,7 @@ newsbox('Bittorrent client whitelist', '
 <li>Mainline</li>
 </ul>
 
-<strong>If there is an &#8220;x&#8221; behind a decimal, that means that any number can be substituted for the x. For example: uTorrent 2.0.x means that uTorrent 2.0.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4, etc. are all on the whitelist.</strong><br /><br />
+<strong>If there is an &#8220;x&#8221; behind a decimal, that means that any number can be substituted for the x. For example: qBittorrent 4.4.x means that qBittorrent 4.4.0, 4.4.1, 4.4.2, etc. are all on the whitelist.</strong><br /><br />
 <em>Last updated: 13 July 2023</em>');
 
 newsbot();
