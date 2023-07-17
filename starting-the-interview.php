@@ -16,10 +16,11 @@ newsbox('Starting the interview', '
 Once you are all set up, read on!
 
 <h3>Connecting to ' . $SITENAME . '&#8217;s IRC</h3>
+<h4><strong>INTERVIEWS ARE OPEN FROM SATURDAY 00:00 UTC TO SUNDAY 23:59 UTC.</strong></h4>
 <strong>YOU MAY ONLY INTERVIEW ON YOUR HOME CONNECTION. Proxies, bouncers, shells, office lines, and other non-home connections (including using your friend&#8217;s home connection) are not allowed. You may connect from your university dormitory.<br />
 </strong><br /><br />
 <strong>IRC Server:</strong> irc.orpheus.network<br />
-<strong>Port:</strong> 6667 (+7000 for SSL)<br /><br />
+<strong>Port:</strong> 7000 (SSL/TLS)<br /><br />
 
 After you have connected to ' . $SITENAME . '&#8217;s IRC network, type: &#8220;/join ' . $interviewchan . '&#8221; (without the quotation marks) and follow the directions in the topic.
 
