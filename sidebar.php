@@ -10,6 +10,7 @@
 <a href="preparefortheinterview.php">Prepare for the Interview</a><br />
 <a href="starting-the-interview.php">Starting the Interview</a><br />
 <a href="after-the-interview.php">After the Interview</a><br />
+<a href="faq.php">FAQ</a><br />
 		</div>
 	</div>
 
@@ -27,7 +28,8 @@
 <a href="torrenting.php">Torrenting</a><br />
 <a href="spectral-analysis.php">Spectral analysis</a><br />
 <a href="cd-burning-and-cd-ripping.php">CD burning and CD ripping</a><br />
-<a href="orpheus-rules.php"><?=$SITENAME?> rules</a><br />
+<a href="dupes-and-trumps.php">Dupes & Trumps</a><br />
+<a href="orpheus-rules.php">Golden rules of <?=$SITENAME?></a><br />
 		</div>
 	</div>
 
