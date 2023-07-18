@@ -34,7 +34,7 @@ newsbox('Golden rules of ' . $SITENAME,'<p>The Golden Rules encompass all of ' .
 <li>Reporting incorrect data to the tracker constitutes cheating, whether it is accomplished through the use of a modified "cheat client" or through manipulation of an approved client.</li>
 <li><p>3.3</p></li>
 <li><strong>Do not use unapproved clients.</strong></li>
-<li>Your client must be listed on the Client Whitelist. You must not use clients that have been modified in any way. Developers interested in testing unstable clients must receive staff approval prior to testing.</li>
+<li>Your client must be listed on the Client Whitelist. You must not use clients that have been modified in any way. Developers interested in clients that have been modified in any way. Do not use a client you do not have direct and exclusive access to. Developers interested in testing unstable clients must receive staff approval prior to testing.</li>
 <li><p>3.4</p></li>
 <li><strong>Do not modify Orpheus .torrent files.</strong></li>
 <li>Embedding non-Orpheus announce URLs in Orpheus .torrents is prohibited. Doing so causes false data to be reported and will be interpreted as cheating. This applies to standalone .torrent files and .torrent files that have been loaded into a client.</li>
