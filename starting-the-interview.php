@@ -37,10 +37,7 @@ If you live at college, please explain this to your interviewer.<br />
 <li>Click &#8220;COPY&#8221; (blue button).</li>
 </ol>
 
-<h3>Queuing</h3>
-Back in ' . $interviewchan . ', simply wait for an available interviewer.<br />
-
-<h3>How to use the bot</h3>
+<h3>How to use the bot and enter queue</h3>
 <strong>To enter the queue,</strong> enter the following command in your IRC client: &#8220;/msg Hermes !queue speedtestlink&#8221; (without the quotations, replacing &#8220;speedtestlink&#8221; with your <strong>correct</strong> speedtest link.) <br />
 <strong>Example:</strong> &#8220;/msg Hermes !queue http://www.speedtest.net/result/1234566.png&#8221;<br />
 After queueing correctly, you will get a small notice from the Hermes bot. <br />

@@ -10,7 +10,7 @@ A <strong>log file</strong> is a text file with the file extension &#8220;.log&#
 <h3>Cue Files</h3>
 A <strong>cue file</strong> is a text file with the file extension &#8220;.cue&#8221;. Cue files act as a catalog or a table of contents of a CD and allow you to burn a CD identical to an original CD. Click <a title="Sample Cue File" href="cue-file.php" target="_blank">here</a> to see an example of a cue file.
 <h3>Suggested CD Ripping Programs</h3>
-' . $SITENAME . ' suggests using <strong>Exact Audio Copy (EAC)</strong> on Windows or Linux (with Wine), and <strong>XLD</strong> on Mac OS. Both EAC and XLD produce high quality rips with sufficient logs to prove that the files are up to standard.');
+' . $SITENAME . ' recommends using <strong>Exact Audio Copy (EAC)</strong> on Windows or Linux (with Wine), and <strong>XLD</strong> on Mac OS. Once setup correctly, both EAC and XLD deliver high-quality rips, complete with comprehensive logs that provide evidence of the files meeting the required standard. Guides for setting up these ripping programs correctly are available to ' . $SITENAME . ' members in the Wiki section.');
 
 newsbot();
 

@@ -15,8 +15,8 @@ A <strong>bad transcode</strong> means that during the transcode process, the fi
 <br />
 <hr>
 <li style="color: lime;">Transcodes from lossless to lossless are always OK.</li>
-<li><span style="color: lime;">A transcode from lossless to lossy is OK</span><span  style="color: red;">, but any further transcode of the lossy file is bad.</span></li>
-<li style="color: red;">Any transcode from a lossy source is a bad transcode, period. (lossy to lossy or lossy to lossless).</li>
+<li style="color: lime;">A transcode from lossless to lossy is OK,<span  style="color: red;"> but any further transcode of the lossy file is BAD.</span></li>
+<li style="color: #e85050;">Any transcode from a lossy source is a bad transcode, period. (lossy to lossy or lossy to lossless).</li>
 </ul>');
 
 newsbot();

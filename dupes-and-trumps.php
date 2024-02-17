@@ -25,7 +25,7 @@ A different edition is where the audio content is <strong>significantly and mean
 
 A dupe is when a new torrent is the same edition and same quality as an existing torrent. ' . $SITENAME . ' allows many different pressings of the same CD to coexist, as long the the CDs are distinct editions, meaning they have meaningfully different audio content.
 <br /><br />
-Torrents that have the same bitrates, formats, and comparable or identical sampling rates for the same edition are duplicates. If a torrent is already present on the site in the format and bitrate you wanted to upload, you are not allowed to upload it.
+Torrents that have the same bitrates, formats, and comparable or identical sampling rates for the same distinct edition are duplicates. If a torrent is already present on the site in the format and bitrate you wanted to upload, you are not allowed to upload it.
 <br /><br />
 For example, International Versions (especially Japanese releases) often have bonus tracks that are not present in the original release or the US release. Uploading a release with bonus tracks when the original release has already been uploaded is not considered a dupe because there is different content on both CDs.
 
@@ -34,16 +34,16 @@ For example, International Versions (especially Japanese releases) often have bo
 <li>Torrents that have been inactive (not seeded) for two weeks may be trumped by the identical torrent (reseeded) or by a brand new rip or encode of the album. If you have the original torrent files for the inactive torrent, you should reseed those original files instead of uploading a new torrent.</li>
 </ul>
 <h3>Trumps</h3>
-The process of replacing a torrent that does not follow the rules with a torrent that does follow the rules is called <strong>trumping</strong>.<br />The most common trumps are format trumps, tag trumps, and folder trumps.
+The process of replacing a torrent with a superior torrent is called <strong>trumping</strong>. This can be due to higher quality rips and encodes being uploaded, or for torrents that do not follow the rules being replaced with a torrent that does follow the rules. The most common trumps are format trumps, tag trumps, and folder trumps.
 
 <h3>Format Trumps</h3>
 The following chart shows the hierarchy of format trumps.
-<p style="text-align: center;"><a href="trumpchart.png" rel="lightbox[39]"><img title="Trump Chart" alt="" src="trumpchart.png" width="500" height="250" /></a></p>
-At the top of each column in a green box are formats that can never be trumped. We recommend that you only upload in these formats in order to prevent your torrents from being trumped by other users.<br />
+<p style="text-align: center;"><a href="trumpchart.png" rel="lightbox[39]"><img title="Trump Chart" alt="" src="trumpchart.png" width="500"/></a></p>
+At the top of each column in a green box are formats that can never be trumped. We recommend that you only upload in these formats in order to prevent your torrents from being trumped by other users. <strong>Never ever transcode your lossy files to lossless or lossy. Doing so will cause your account be warned, or in worse case, disabled.</strong><br /><br />
 <strong>Lossy Format Trump Rules</strong>
 <ul>
 <li>If there is no existing torrent of the album in the allowed format you&#8217;ve chosen, you may upload it in any bitrate that averages at least 192 kbps.</li>
-<li>You may always upload MP3 V0 , MP3 V2, or MP3 320kbps (CBR) as long as another rip with the same bitrate and format doesn&#8217;t already exist.</li>
+<li>You may always upload MP3 V0 or MP3 320kbps (CBR) as long as another rip with the same bitrate and format doesn&#8217;t already exist.</li>
 <li>Higher bitrate CBR (Constant Bitrate) and ABR (Average Bitrate) torrents replace lower ones. Once a CBR rip has been uploaded, no CBR rips of that bitrate or lower can be uploaded. In the same manner, once an ABR rip has been uploaded, no ABR rips of that bitrate or lower can be uploaded.</li>
 <li>AAC encodes can be trumped by any allowed MP3 format of the same edition and media. (This does not apply to AAC torrents with files bought from the iTunes Store that contain iTunes Exclusive tracks.)</li>
 <li>Lossy format torrents with .log files, .cue files, .m3u files, and album artwork do not replace equivalent existing torrents.</li>
@@ -51,8 +51,9 @@ At the top of each column in a green box are formats that can never be trumped. 
 <strong>Lossless Format Trump Rules</strong>
 <ul>
 <li>Rips must be taken from commercially pressed or official (artist- or label-approved) CD sources. They may not come from CD-R copies of the same pressed CDs (unless the release was only distributed on CD-R by the artist or label).</li>
-<li>A FLAC torrent without a log (or with a log from a non-EAC or non-XLD ripping tool like dBpoweramp or Rubyripper) may be trumped by a FLAC torrent with a log from an approved ripping tool with any score.</li>
-<li>A FLAC upload with an EAC or XLD log that scores 100% on the log checker replaces one with a lower score. However, no log scoring less than 100% can trump an already existing one that scores under 100% (for example, a rip with a 99% log cannot replace a rip with an 80% log).</li>
+<li>A FLAC torrent without a log (or with a log from a non-EAC, non-XLD, or non-whipper ripping tool like dBpoweramp or Rubyripper) may be trumped by a FLAC torrent with a log from an approved ripping tool that scores either 100% or <100% because of non-audio deductions.</li><ul>
+<li>A FLAC torrent with a log score <100% <strong>due to audio deductions</strong> can only be trumped by FLAC torrent with log score 100% or log with score <100% due to non-audio deductions.</li>
+<li>A FLAC torrent with a log score <100% <strong>due to non-audio deductions</strong> can only be trumped by FLAC torrent with log score 100%</li></ul>
 <li>A 100% log rip without a cue sheet can be replaced by a 100% log rip with a noncompliant cue sheet ONLY when the included cue sheet is materially different from &#8220;a cue generated from the ripping log.&#8221; Examples of a material difference include additional or correct indices, properly detected pre-gap lengths, and pre-emphasis flags.</li>
 </ul>
 <h3>Tag Trumps</h3>
@@ -69,7 +70,7 @@ At the top of each column in a green box are formats that can never be trumped. 
 <li>Name your directories with meaningful titles, such as &#8220;Artist &#8211; Album (Year) &#8211; Format.&#8221; The minimum acceptable is &#8220;Album&#8221; although you should include more information.</li>
 <li>Avoid creating unnecessary nested folders (such as an extra folder for the actual album) inside your properly named directory.</li>
 <li>File names must accurately reflect the song titles. You may not have file names like 01track.mp3, 02track.mp3, etc. Torrents containing files that are named with incorrect song titles can be trumped by properly labeled torrents.</li>
-<li>Multiple-disc torrents cannot have tracks with the same numbers in one directory. You may place all the tracks for Disc One in one directory and all the tracks for Disc Two in another directory.</li>
+<li>Multiple-disc torrents cannot have tracks with the same numbers in one directory. The preferred method is to place all the tracks for disc one in one directory and all the tracks for disc two in another directory. If you prefer to use one directory for all the audio files, you must use successive numbering. </li><li>For example, disc one has 15 tracks and disc two has 20 tracks. You may either number tracks in disc one as #01-#15 and those of disc two as #16-#35 in the same directory, or you may add a disc number before the track numbers such that the numbers are #1 06 for Disc One Track 06, and #2 03 for Disc 2 Track 03, and so forth.</li>
 </ul>
 ');
 
